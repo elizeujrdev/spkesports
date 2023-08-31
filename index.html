@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPK E-sports</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-bar">
+          <div class="logo">
+              <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+          </div>
+          <div class="nav-list">
+              <ul>
+                <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="times.html" class="nav-link">TIMES</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> NOTÍCIAS</a></li>
+                <li class="nav-item"><a href="sponsors.html" class="nav-link"> SPONSORS</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> SOBRE NÓS</a></li>
+              </ul>
+              <ul class="social"> 
+                        
+                <a class="nav-link2" href="https://twitter.com/spkesportspt" target="_blank"> <i class="fab fa-twitter-square fa-2x fa-inverse transition-2"></i> </a>
+                 <a class="nav-link2" href="https://www.instagram.com/spkesports_/" target="_blank"> <i class="fab fa-instagram fa-2x fa-inverse transition-2"></i> </a> 
+                 
+                 <a class="nav-link2" href="#" target="_blank"> <i class="fab fa-youtube-square fa-2x fa-inverse transition-2"></i> </a>
+                 
+                 
+                 <a class="nav-link2" href="https://discord.spkesports.com/" target="_blank"> <i class="fab fa-discord fa-2x fa-inverse transition-2"></i> 
+                </a>
+            </ul>
+          </div>
+
+          <div class="mobile-menu-icon">
+              <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+          </div>
+      </nav>
+      <div class="mobile-menu">
+          <ul>
+              <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+              <li class="nav-item"><a href="times.html" class="nav-link">TIMES</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"> NOTÍCIAS</a></li>
+              <li class="nav-item"><a href="sponsors.html" class="nav-link"> SPONSORS</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"> SOBRE NÓS</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"><i class="fab fa-twitter-square fa-2x fa-inverse transition-2"></i></a></li>
+              <li class="nav-item"><a href="#" class="nav-link"><i class="fab fa-instagram fa-2x fa-inverse transition-2"></i></a></li>
+              <li class="nav-item"><a href="#" class="nav-link"> <i class="fab fa-youtube-square fa-2x fa-inverse transition-2"></i></a></li>
+              <li class="nav-item"><a href="#" class="nav-link"> <i class="fab fa-discord fa-2x fa-inverse transition-2"></i></a></li>
+          </ul>
+
+      </div>
+      </header>
+    <main>
+      <section class="slider">
+        <div class="slider-content">
+            
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="assets/img/slide-1.jpg" alt="slide 1">
+                <img class="img-mobile" src="assets/img/slide-1-mob.jpg" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="assets/img/slide-2.jpg" alt="slide 3">
+                <img class="img-mobile" src="assets/img/slide-2-mob.jpg" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="assets/img/slide-3.jpg" alt="slide 3">
+                <img class="img-mobile" src="assets/img/slide-3-mob.jpg" alt="slide 3">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+    </section>
+
+    <h2 class="titulo">NOTÍCIAS</h2>
+
+    <div class="image-container">
+      <div class="image-box">
+          <img src="assets/img/images.png" alt="Imagem 1" class="image">
+          <div class="date">01/02/2023</div>
+          <div class="title">Título</div>
+      </div>
+      <div class="image-box">
+          <img src="assets/img/images.png" alt="Imagem 2" class="image">
+          <div class="date">01/02/2023</div>
+          <div class="title">Título</div>
+      </div>
+      <div class="image-box">
+          <img src="assets/img/images.png" alt="Imagem 3" class="image">
+          <div class="date">01/02/2023</div>
+          <div class="title">Título</div>
+      </div>
+      <div class="image-box">
+          <img src="assets/img/images.png" alt="Imagem 4" class="image">
+          <div class="date">01/02/2023</div>
+          <div class="title">Título</div>
+      </div>
+  </div>
+
+  <div class="vermais">
+  <h2 class="titulo">STREAMERS</h2>
+    <button class="botao" onclick="streamers()">VER TODOS <i id="seta" class="fa-solid fa-arrow-right"></i></button>
+</div>
+
+  <div class="image-container">
+    <div class="image-box">
+        <img src="assets/img/twitch.png" alt="Imagem 1" class="image">
+        <div class="name">SPOOKÃO</div>
+        <div class="twitch">@spookao</div>
+    </div>
+    <div class="image-box">
+        <img src="assets/img/twitch.png" alt="Imagem 2" class="image">
+        <div class="name">SPOOKÃO</div>
+        <div class="twitch">@spookao</div>
+    </div>
+    <div class="image-box">
+        <img src="assets/img/twitch.png" alt="Imagem 3" class="image">
+        <div class="name">SPOOKÃO</div>
+        <div class="twitch">@spookao</div>
+    </div>
+    <div class="image-box">
+        <img src="assets/img/twitch.png" alt="Imagem 4" class="image">
+        <div class="name">SPOOKÃO</div>
+        <div class="twitch">@spookao</div>
+    </div>
+</div>
+    </main>
+    <footer>
+      <div id="footer_content">
+
+          <div id="footer_contacts">
+              <img src="assets/img/logo_white.png" alt="">
+
+          </div>
+          
+          <ul class="footer-list">
+              <li>
+                  <h3>Menu</h3>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Home</a>
+              </li>
+              <li>
+                  <a href="times.html" class="footer-link">Times</a>
+              </li>
+              <li>
+                  <a href="#" class="footer-link">Notícias</a>
+              </li>
+              <li>
+                <a href="sponsors.html" class="footer-link">Sponsors</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Sobre nós</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+              <li>
+                  <h3>Contato</h3>
+              </li>
+              <li>
+                  <a href="#" class="footer-link"><i class="fa-solid fa-envelope"></i>   contacto@spkesports.com</a>
+              </li>
+          </ul>
+
+          <div id="footer_subscribe">
+              <h3>Social</h3>
+
+              <ul class="social"> 
+                        
+                <a class="nav-link2" href="https://twitter.com/spkesportspt" target="_blank"> <i class="fab fa-twitter-square fa-2x fa-inverse transition-2"></i> </a>
+                 <a class="nav-link2" href="https://www.instagram.com/spkesports_/" target="_blank"> <i class="fab fa-instagram fa-2x fa-inverse transition-2"></i> </a> 
+                 
+                 <a class="nav-link2" href="#" target="_blank"> <i class="fab fa-youtube-square fa-2x fa-inverse transition-2"></i> </a>
+                 
+                 
+                 <a class="nav-link2" href="https://discord.spkesports.com/" target="_blank"> <i class="fab fa-discord fa-2x fa-inverse transition-2"></i> 
+                </a>
+            </ul>
+          </div>
+      </div>
+
+      <div id="footer_copyright">
+          &#169
+          2023 todos os direitos reservados a SPK E-sports.
+      </div>
+  </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
