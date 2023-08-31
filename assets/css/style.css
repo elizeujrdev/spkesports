@@ -17,10 +17,8 @@
   padding: 0;
 }
 
-body {
-
-  overflow-x: hidden;
-
+html,body {
+  overflow-x: hidden !important;
 }
 
 header {
@@ -434,8 +432,8 @@ footer {
 
   }
 
-  body {
-    overflow-x: hidden;
+  html,body {
+    overflow-x: hidden !important;
   }
 
   .nav-bar {
